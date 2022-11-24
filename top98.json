@@ -17,7 +17,7 @@
           ]
         }
       ],
-      "epg":"http://epg.51zmt.top:8000/api/diyp/"
+      "epg": "http://epg.51zmt.top:8000/api/diyp/"
     }
   ],
   "rules": [
@@ -111,7 +111,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": {
-        "💢小雅":"http://alistxy.ganggang.live:5678",
+        "💢小雅": "http://alistxy.ganggang.live:5678",
         "🦀9T(Adult)": "https://drive.9t.ee",
         "🌤晴园的宝藏库": "https://alist.52qy.repl.co",
         "🐭米奇妙妙屋": "https://anime.mqmmw.ga",
@@ -142,8 +142,8 @@
       "filterable": 0,
       "ext": {
         "homeUrl": "http://www.lezhutv.com/type/{cateId}-{datePg}.html",
-        "playlist":{
-          "sort":1
+        "playlist": {
+          "sort": 1
         }
       }
     },
@@ -155,7 +155,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext":{
+      "ext": {
         "请求头": "手机",
         "起始页": "1",
         "二次截取": "<div class=\"module-list\">&&<div class=\"mx-lrmenu\">[替换:<div class=\"fixed_right_bar\">>><div class=\"module-item\">]||首页--最新热播&&<div  class=\"module-main\"[替换:<div class=\"module module-wrapper\">>><div class=\"module-item\">]",
@@ -186,7 +186,8 @@
         "筛选": "1"
       }
     },
-    {"key": "csp_XBPQ_南瓜影视",
+    {
+      "key": "csp_XBPQ_南瓜影视",
       "name": "南瓜影视",
       "type": 3,
       "api": "csp_XBPQ",
@@ -195,7 +196,16 @@
       "filterable": 0,
       "ext": "https://www.ngys8.com/vodshow/id/{cateId}/page{catePg}.html"
     },
-    {"key": "csp_biubiu_短视频","name": "️短视频(XB)","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "分类url:http://www.sharenice.net/{cateId}?page={catePg},分类:抖音,直接播放:1,嗅探词:play/?#?item#qianpailive#.flv#mp4"},
+    {
+      "key": "csp_biubiu_短视频",
+      "name": "️短视频(XB)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "分类url:http://www.sharenice.net/{cateId}?page={catePg},分类:抖音,直接播放:1,嗅探词:play/?#?item#qianpailive#.flv#mp4"
+    },
     {
       "key": "csp_xb_zxzj",
       "name": "在线之家(XBiu)",
